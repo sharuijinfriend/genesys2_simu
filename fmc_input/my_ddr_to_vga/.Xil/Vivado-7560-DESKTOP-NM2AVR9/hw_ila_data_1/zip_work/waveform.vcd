@@ -1,0 +1,25 @@
+$date
+        2019-Sep-07 18:35:37
+$end
+$version
+        Vivado v2018.3 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 16 " vga_data [15:0] $end
+$var reg 1 2 _TRIGGER $end
+$var reg 1 3 _WINDOW $end
+$var reg 1 4 _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+02
+13
+04
+$end
+#8191
+12

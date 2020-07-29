@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov  4 14:44:19 2019
+# Process ID: 15780
+# Current directory: C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.sim/sim_1/synth/timing/xsim/xsim.dir/fmc_data_convert_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.sim/sim_1/synth/timing/xsim/xsim.dir/fmc_data_convert_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 83.199 ; gain = 0.523
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov  4 14:44:26 2019...

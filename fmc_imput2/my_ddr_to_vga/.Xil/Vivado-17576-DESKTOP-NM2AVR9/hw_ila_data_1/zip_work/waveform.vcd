@@ -1,0 +1,37 @@
+$date
+        2019-Sep-20 13:45:56
+$end
+$version
+        Vivado v2018.3 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 21 " u_ila_0_rd_burst_data_counter [20:0] $end
+$var reg 3 7 u_ila_0_current_state [2:0] $end
+$var reg 21 : u_ila_0_rd_burst_addr_counter [20:0] $end
+$var reg 21 O u_ila_0_wr_burst_addr_counter [20:0] $end
+$var reg 1 d ddr_fifo_full $end
+$var reg 1 e sd_fifo_empty $end
+$var reg 1 f u_ila_0_wr_burst_req $end
+$var reg 1 g _TRIGGER $end
+$var reg 1 h _WINDOW $end
+$var reg 1 i _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10011 "
+b10 7
+b111111 :
+b1111111111111110 O
+0d
+0e
+0f
+0g
+1h
+0i
+$end
+#100
+1g

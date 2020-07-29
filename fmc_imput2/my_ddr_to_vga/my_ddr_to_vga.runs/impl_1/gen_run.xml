@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1573699052">
+  <File Type="BITSTR-BMM" Name="ddrtovga_top_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ddrtovga_top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ddrtovga_top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="ddrtovga_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ddrtovga_top.tcl"/>
+  <File Type="OPT-TIMING" Name="ddrtovga_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ddrtovga_top_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="ddrtovga_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ddrtovga_top_reports.tcl"/>
+  <File Type="OPT-DRC" Name="ddrtovga_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ddrtovga_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ddrtovga_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ddrtovga_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ddrtovga_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ddrtovga_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ddrtovga_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ddrtovga_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ddrtovga_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ddrtovga_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ddrtovga_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ddrtovga_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ddrtovga_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="ddrtovga_top.bgn"/>
+  <File Type="PLACE-TIMING" Name="ddrtovga_top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ddrtovga_top_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="ddrtovga_top.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ddrtovga_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ddrtovga_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ddrtovga_top_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="ddrtovga_top.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="ddrtovga_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ddrtovga_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ddrtovga_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ddrtovga_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ddrtovga_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ddrtovga_top_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ddrtovga_top.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="ddrtovga_top_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="ddrtovga_top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ddrtovga_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ddrtovga_top_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="ddrtovga_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ddrtovga_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ddrtovga_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ddrtovga_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ddrtovga_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ddrtovga_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ddrtovga_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ddrtovga_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ddrtovga_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ddrtovga_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ddrtovga_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ddrtovga_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ddrtovga_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ddrtovga_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ddrtovga_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ddrtovga_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ddrtovga_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ddrtovga_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ddrtovga_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ddrtovga_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="ddrtovga_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ddrtovga_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="ddrtovga_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="ddrtovga_top.nky"/>
+  <File Type="BG-DRC" Name="ddrtovga_top.drc"/>
+  <File Type="RDI-RDI" Name="ddrtovga_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/clk_convert/clk_convert.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_convert.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ddr3_controller.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/define.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/modelsim/ddr3_sig_generator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../modelsim/ddr3_sig_generator.v"/>
+        <Attr Name="ImportTime" Val="1568524357"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fifo_256to16_series.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fifo_series.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fmc_data_compare.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/req_generator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sd_ctrl_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/sd_ctrl_top.v"/>
+        <Attr Name="ImportTime" Val="1564383950"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sd_init.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/sd_init.v"/>
+        <Attr Name="ImportTime" Val="1564383967"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sd_read.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/sd_read.v"/>
+        <Attr Name="ImportTime" Val="1564387050"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sd_read_photo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/sd_read_photo.v"/>
+        <Attr Name="ImportTime" Val="1564401121"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/sd_write.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/sd_write.v"/>
+        <Attr Name="ImportTime" Val="1564383986"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/top_sd_photo.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="F:/ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/top_sd_photo.v"/>
+        <Attr Name="ImportTime" Val="1564385917"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_data_convert.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/uart_tx.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_disp.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ddrtovga_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FMC_data_convert.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FMC_out.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ddr_top.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/ddr_top.v"/>
+        <Attr Name="ImportTime" Val="1567567184"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mem_burst.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/mem_burst.v"/>
+        <Attr Name="ImportTime" Val="1566976508"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mem_test.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ddrtovga/simple_project_ddr/delete.srcs/sources_1/new/mem_test.v"/>
+        <Attr Name="ImportTime" Val="1564132512"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ddr3_ctrl.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ddr3_test.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/data_shift.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/DDR3_CONTROL/ip/DDR3_CONTROL/mig_a.prj">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ddrtovga/simple_project_ddr/delete.srcs/sources_1/ip/DDR3_CONTROL/mig_a.prj"/>
+        <Attr Name="ImportTime" Val="1568876930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="DDR3_CONTROL"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DDR3_CONTROL/mig_b.prj">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../ddrtovga/simple_project_ddr/delete.srcs/sources_1/ip/DDR3_CONTROL/mig_b.prj"/>
+        <Attr Name="ImportTime" Val="1568876930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="DDR3_CONTROL"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ddrtovga_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/ddrtovga.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/ddrtovga.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_16_out"/>
+  <BlockFileSet Type="BlockSrcs" Name="DDR3_CONTROL"/>
+  <BlockFileSet Type="BlockSrcs" Name="ddr_fifo_big"/>
+  <BlockFileSet Type="BlockSrcs" Name="sd_fifo"/>
+  <BlockFileSet Type="BlockSrcs" Name="ddr_fifo_small"/>
+  <BlockFileSet Type="BlockSrcs" Name="fifo_256_ddr"/>
+</GenRun>

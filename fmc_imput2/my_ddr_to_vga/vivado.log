@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov 18 16:34:07 2019
+# Process ID: 12480
+# Current directory: C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3808 C:\Users\gyz\Desktop\ddrtovga\fmc_imput2\my_ddr_to_vga\my_ddr_to_vga.xpr
+# Log file: C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/vivado.log
+# Journal file: C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 826.738 ; gain = 214.148
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 18 16:39:08 2019...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov  6 14:44:35 2019
+# Process ID: 7456
+# Current directory: C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5396 C:\Users\gyz\Desktop\ddrtovga\fmc_input\my_ddr_to_vga\my_ddr_to_vga.xpr
+# Log file: C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/vivado.log
+# Journal file: C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.xpr
+update_compile_order -fileset sources_1

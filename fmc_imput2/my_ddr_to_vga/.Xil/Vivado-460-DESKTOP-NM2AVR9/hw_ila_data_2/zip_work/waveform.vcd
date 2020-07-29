@@ -1,0 +1,36 @@
+$date
+        2019-Sep-22 16:54:28
+$end
+$version
+        Vivado v2018.3 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 17 " sd_read/u_sd_read_photo/rd_sec_cnt [16:0] $end
+$var reg 256 3 sd_read/data [255:0] $end
+$var reg 16 w# sd_read/sd_rd_val_data [15:0] $end
+$var reg 1 )$ sd_read/out_valid $end
+$var reg 1 *$ sd_fifo_full $end
+$var reg 1 +$ sd_read/sd_rd_val_en $end
+$var reg 1 ,$ _TRIGGER $end
+$var reg 1 -$ _WINDOW $end
+$var reg 1 .$ _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 "
+b1110000000000011111000100000001111100100000000111110011000000011111010000000001111101010000000111110110000000011111011100000001111110000000000111111001000000011111101000000001111110110000000111111100000000011111110100000001111111100000000111111111000000011 3
+b1111111000000011 w#
+1)$
+1*$
+0+$
+0,$
+1-$
+0.$
+$end
+#10
+b10 "
+1,$

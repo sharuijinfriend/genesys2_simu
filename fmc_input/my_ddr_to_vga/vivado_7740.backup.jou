@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov 13 13:54:59 2019
+# Process ID: 7740
+# Current directory: C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5676 C:\Users\gyz\Desktop\ddrtovga\fmc_input\my_ddr_to_vga\my_ddr_to_vga.xpr
+# Log file: C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/vivado.log
+# Journal file: C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sim_1/new/fifo_256to16_series_tb.v w ]
+add_files -fileset sim_1 C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sim_1/new/fifo_256to16_series_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top fifo_256to16_series_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sim_1/new/fifo_256to16_series_tb.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sim_1/new/fifo_256to16_series_tb.v
+file delete -force C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sim_1/new/fifo_256to16_series_tb.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="clk_convert_synth_1" LaunchDir="C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.runs/clk_convert_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="sd_fifo_synth_1" LaunchDir="C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.runs/sd_fifo_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ddr_fifo_big_synth_1" LaunchDir="C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.runs/ddr_fifo_big_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ddr_fifo_small_synth_1" LaunchDir="C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.runs/ddr_fifo_small_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="sd_fifo_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="clk_convert_synth_1"/>
+		<Parent Id="sd_fifo_synth_1"/>
+		<Parent Id="ddr_fifo_big_synth_1"/>
+		<Parent Id="ddr_fifo_small_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/Users/gyz/Desktop/ddrtovga/mine/my_ddr_to_vga/my_ddr_to_vga.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="clk_convert_synth_1"/>
+		<Parent Id="sd_fifo_synth_1"/>
+		<Parent Id="ddr_fifo_big_synth_1"/>
+		<Parent Id="ddr_fifo_small_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

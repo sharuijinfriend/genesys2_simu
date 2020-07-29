@@ -1,0 +1,7 @@
+Running: xsim.dir/fifotoddrtofifotovga_tb_behav/xsimk.exe -simmode gui -wdb fifotoddrtofifotovga_tb_behav.wdb -simrunnum 0 -socket 60623
+Design successfully loaded
+Design Loading Memory Usage: 94108 KB (Peak: 94108 KB)
+Design Loading CPU Usage: 265 ms
+Simulation completed
+Simulation Memory Usage: 110252 KB (Peak: 110252 KB)
+Simulation CPU Usage: 481687 ms

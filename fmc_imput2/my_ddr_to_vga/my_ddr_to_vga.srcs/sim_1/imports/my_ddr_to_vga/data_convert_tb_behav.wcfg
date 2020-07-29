@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fifo_256to16_series_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fifo_256to16_series_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="60179000000fs"></ZoomStartTime>
+      <ZoomEndTime time="60297400001fs"></ZoomEndTime>
+      <Cursor1Time time="60201100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="182"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/data_in_256bit" type="array">
+      <obj_property name="ElementShortName">data_in_256bit[255:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_256bit[255:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_full" type="logic">
+      <obj_property name="ElementShortName">fifo_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/data_out_16bit" type="array">
+      <obj_property name="ElementShortName">data_out_16bit[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_16bit[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_almost_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_1_full" type="logic">
+      <obj_property name="ElementShortName">fifo_1_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_1_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_1_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_1_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_1_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_1_almost_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_1_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_1_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_1_rd_en" type="logic">
+      <obj_property name="ElementShortName">fifo_1_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_1_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_1_out_16" type="array">
+      <obj_property name="ElementShortName">fifo_1_out_16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_1_out_16[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_1_out_256" type="array">
+      <obj_property name="ElementShortName">fifo_1_out_256[255:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_1_out_256[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_1_out_256_r" type="array">
+      <obj_property name="ElementShortName">fifo_1_out_256_r[255:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_1_out_256_r[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/shift_cnt" type="array">
+      <obj_property name="ElementShortName">shift_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_cnt[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/curr_state" type="array">
+      <obj_property name="ElementShortName">curr_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_2_full" type="logic">
+      <obj_property name="ElementShortName">fifo_2_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_2_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_2_almost_full" type="logic">
+      <obj_property name="ElementShortName">fifo_2_almost_full</obj_property>
+      <obj_property name="ObjectShortName">fifo_2_almost_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_2_wr_en" type="logic">
+      <obj_property name="ElementShortName">fifo_2_wr_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_2_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_2_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_2_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_2_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/fifo_2_almost_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_2_almost_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_2_almost_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/READ" type="array">
+      <obj_property name="ElementShortName">READ[2:0]</obj_property>
+      <obj_property name="ObjectShortName">READ[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/WAIT0" type="array">
+      <obj_property name="ElementShortName">WAIT0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/SHIFT" type="array">
+      <obj_property name="ElementShortName">SHIFT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SHIFT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fifo_256to16_series_tb/u_256to16_tb/WAIT1" type="array">
+      <obj_property name="ElementShortName">WAIT1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">WAIT1[2:0]</obj_property>
+   </wvobject>
+</wave_config>

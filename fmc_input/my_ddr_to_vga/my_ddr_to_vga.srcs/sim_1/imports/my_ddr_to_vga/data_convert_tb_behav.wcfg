@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fmc_data_convert_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fmc_data_convert_tb" />
+            <top_module name="glbl" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="23008166667fs"></ZoomStartTime>
+      <ZoomEndTime time="25344166668fs"></ZoomEndTime>
+      <Cursor1Time time="23397500000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="198"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="52" />
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/counter_h" type="array">
+      <obj_property name="ElementShortName">counter_h[12:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_h[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/counter_v" type="array">
+      <obj_property name="ElementShortName">counter_v[12:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_v[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/clk_fmc" type="logic">
+      <obj_property name="ElementShortName">clk_fmc</obj_property>
+      <obj_property name="ObjectShortName">clk_fmc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/ddr_fifo_dout" type="array">
+      <obj_property name="ElementShortName">ddr_fifo_dout[255:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_fifo_dout[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/ddr_fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">ddr_fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">ddr_fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/counter_1" type="array">
+      <obj_property name="ElementShortName">counter_1[12:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_1[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/reg_a" type="array">
+      <obj_property name="ElementShortName">reg_a[255:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_a[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/reg_b" type="array">
+      <obj_property name="ElementShortName">reg_b[255:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_b[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/x_pos" type="array">
+      <obj_property name="ElementShortName">x_pos[12:0]</obj_property>
+      <obj_property name="ObjectShortName">x_pos[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/y_pos" type="array">
+      <obj_property name="ElementShortName">y_pos[12:0]</obj_property>
+      <obj_property name="ObjectShortName">y_pos[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/data_valid" type="logic">
+      <obj_property name="ElementShortName">data_valid</obj_property>
+      <obj_property name="ObjectShortName">data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_data_convert_test/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_out_Test/fmc_hcnt" type="array">
+      <obj_property name="ElementShortName">fmc_hcnt[12:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_hcnt[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_out_Test/fmc_vcnt" type="array">
+      <obj_property name="ElementShortName">fmc_vcnt[12:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_vcnt[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_out_Test/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_out_Test/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/FMC_out_Test/data_16bit" type="array">
+      <obj_property name="ElementShortName">data_16bit[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_16bit[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/clk_ori_p" type="logic">
+      <obj_property name="ElementShortName">clk_ori_p</obj_property>
+      <obj_property name="ObjectShortName">clk_ori_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/clk_100m" type="logic">
+      <obj_property name="ElementShortName">clk_100m</obj_property>
+      <obj_property name="ObjectShortName">clk_100m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/clk_10m" type="logic">
+      <obj_property name="ElementShortName">clk_10m</obj_property>
+      <obj_property name="ObjectShortName">clk_10m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fmc_data" type="array">
+      <obj_property name="ElementShortName">fmc_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fmc_hsync" type="logic">
+      <obj_property name="ElementShortName">fmc_hsync</obj_property>
+      <obj_property name="ObjectShortName">fmc_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fmc_vsync" type="logic">
+      <obj_property name="ElementShortName">fmc_vsync</obj_property>
+      <obj_property name="ObjectShortName">fmc_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fmc_data_r" type="array">
+      <obj_property name="ElementShortName">fmc_data_r[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fmc_data_r[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fifo_dout" type="array">
+      <obj_property name="ElementShortName">fifo_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fmc_hsync_r" type="logic">
+      <obj_property name="ElementShortName">fmc_hsync_r</obj_property>
+      <obj_property name="ObjectShortName">fmc_hsync_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fmc_vsync_r" type="logic">
+      <obj_property name="ElementShortName">fmc_vsync_r</obj_property>
+      <obj_property name="ObjectShortName">fmc_vsync_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fifo_wr_en" type="logic">
+      <obj_property name="ElementShortName">fifo_wr_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/fifo_rd_en" type="logic">
+      <obj_property name="ElementShortName">fifo_rd_en</obj_property>
+      <obj_property name="ObjectShortName">fifo_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/wr_num_cnt" type="array">
+      <obj_property name="ElementShortName">wr_num_cnt[25:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_num_cnt[25:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/o_Tx_Serial" type="logic">
+      <obj_property name="ElementShortName">o_Tx_Serial</obj_property>
+      <obj_property name="ObjectShortName">o_Tx_Serial</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/o_Tx_Active" type="logic">
+      <obj_property name="ElementShortName">o_Tx_Active</obj_property>
+      <obj_property name="ObjectShortName">o_Tx_Active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/o_Tx_Done" type="logic">
+      <obj_property name="ElementShortName">o_Tx_Done</obj_property>
+      <obj_property name="ObjectShortName">o_Tx_Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/shift_data_valid" type="logic">
+      <obj_property name="ElementShortName">shift_data_valid</obj_property>
+      <obj_property name="ObjectShortName">shift_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/clk_10m" type="logic">
+      <obj_property name="ElementShortName">clk_10m</obj_property>
+      <obj_property name="ObjectShortName">clk_10m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/ddr_fifo_full_dout" type="array">
+      <obj_property name="ElementShortName">ddr_fifo_full_dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ddr_fifo_full_dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/o_Tx_Done" type="logic">
+      <obj_property name="ElementShortName">o_Tx_Done</obj_property>
+      <obj_property name="ObjectShortName">o_Tx_Done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/uart_en" type="logic">
+      <obj_property name="ElementShortName">uart_en</obj_property>
+      <obj_property name="ObjectShortName">uart_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/ddr_fifo_full_rd_en" type="logic">
+      <obj_property name="ElementShortName">ddr_fifo_full_rd_en</obj_property>
+      <obj_property name="ObjectShortName">ddr_fifo_full_rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/uart_data" type="array">
+      <obj_property name="ElementShortName">uart_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/shift_data_valid" type="logic">
+      <obj_property name="ElementShortName">shift_data_valid</obj_property>
+      <obj_property name="ObjectShortName">shift_data_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/counter_1" type="array">
+      <obj_property name="ElementShortName">counter_1[12:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_1[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/reg_a" type="array">
+      <obj_property name="ElementShortName">reg_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/reg_b" type="array">
+      <obj_property name="ElementShortName">reg_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/locked0_reg" type="logic">
+      <obj_property name="ElementShortName">locked0_reg</obj_property>
+      <obj_property name="ObjectShortName">locked0_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/locked1_reg" type="logic">
+      <obj_property name="ElementShortName">locked1_reg</obj_property>
+      <obj_property name="ObjectShortName">locked1_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/locked2_reg" type="logic">
+      <obj_property name="ElementShortName">locked2_reg</obj_property>
+      <obj_property name="ObjectShortName">locked2_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fmc_data_convert_tb/fmc_input_test/uart/convert/locked3_reg" type="logic">
+      <obj_property name="ElementShortName">locked3_reg</obj_property>
+      <obj_property name="ObjectShortName">locked3_reg</obj_property>
+   </wvobject>
+</wave_config>

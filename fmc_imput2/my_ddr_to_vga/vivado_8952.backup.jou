@@ -1,0 +1,105 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov 13 21:15:46 2019
+# Process ID: 8952
+# Current directory: C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5852 C:\Users\gyz\Desktop\ddrtovga\fmc_imput2\my_ddr_to_vga\my_ddr_to_vga.xpr
+# Log file: C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/vivado.log
+# Journal file: C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list clk_generate/inst/clk_50m ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {u_fmc_data_compare/wr_num_cnt[0]} {u_fmc_data_compare/wr_num_cnt[1]} {u_fmc_data_compare/wr_num_cnt[2]} {u_fmc_data_compare/wr_num_cnt[3]} {u_fmc_data_compare/wr_num_cnt[4]} {u_fmc_data_compare/wr_num_cnt[5]} {u_fmc_data_compare/wr_num_cnt[6]} {u_fmc_data_compare/wr_num_cnt[7]} {u_fmc_data_compare/wr_num_cnt[8]} {u_fmc_data_compare/wr_num_cnt[9]} {u_fmc_data_compare/wr_num_cnt[10]} {u_fmc_data_compare/wr_num_cnt[11]} {u_fmc_data_compare/wr_num_cnt[12]} {u_fmc_data_compare/wr_num_cnt[13]} {u_fmc_data_compare/wr_num_cnt[14]} {u_fmc_data_compare/wr_num_cnt[15]} {u_fmc_data_compare/wr_num_cnt[16]} {u_fmc_data_compare/wr_num_cnt[17]} {u_fmc_data_compare/wr_num_cnt[18]} {u_fmc_data_compare/wr_num_cnt[19]} {u_fmc_data_compare/wr_num_cnt[20]} {u_fmc_data_compare/wr_num_cnt[21]} {u_fmc_data_compare/wr_num_cnt[22]} {u_fmc_data_compare/wr_num_cnt[23]} {u_fmc_data_compare/wr_num_cnt[24]} {u_fmc_data_compare/wr_num_cnt[25]} {u_fmc_data_compare/wr_num_cnt[26]} {u_fmc_data_compare/wr_num_cnt[27]} {u_fmc_data_compare/wr_num_cnt[28]} {u_fmc_data_compare/wr_num_cnt[29]} {u_fmc_data_compare/wr_num_cnt[30]} {u_fmc_data_compare/wr_num_cnt[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {u_fmc_data_compare/error_cnt[0]} {u_fmc_data_compare/error_cnt[1]} {u_fmc_data_compare/error_cnt[2]} {u_fmc_data_compare/error_cnt[3]} {u_fmc_data_compare/error_cnt[4]} {u_fmc_data_compare/error_cnt[5]} {u_fmc_data_compare/error_cnt[6]} {u_fmc_data_compare/error_cnt[7]} {u_fmc_data_compare/error_cnt[8]} {u_fmc_data_compare/error_cnt[9]} {u_fmc_data_compare/error_cnt[10]} {u_fmc_data_compare/error_cnt[11]} {u_fmc_data_compare/error_cnt[12]} {u_fmc_data_compare/error_cnt[13]} {u_fmc_data_compare/error_cnt[14]} {u_fmc_data_compare/error_cnt[15]} {u_fmc_data_compare/error_cnt[16]} {u_fmc_data_compare/error_cnt[17]} {u_fmc_data_compare/error_cnt[18]} {u_fmc_data_compare/error_cnt[19]} {u_fmc_data_compare/error_cnt[20]} {u_fmc_data_compare/error_cnt[21]} {u_fmc_data_compare/error_cnt[22]} {u_fmc_data_compare/error_cnt[23]} {u_fmc_data_compare/error_cnt[24]} {u_fmc_data_compare/error_cnt[25]} {u_fmc_data_compare/error_cnt[26]} {u_fmc_data_compare/error_cnt[27]} {u_fmc_data_compare/error_cnt[28]} {u_fmc_data_compare/error_cnt[29]} {u_fmc_data_compare/error_cnt[30]} {u_fmc_data_compare/error_cnt[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 16 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {fmc_fifo_dout[0]} {fmc_fifo_dout[1]} {fmc_fifo_dout[2]} {fmc_fifo_dout[3]} {fmc_fifo_dout[4]} {fmc_fifo_dout[5]} {fmc_fifo_dout[6]} {fmc_fifo_dout[7]} {fmc_fifo_dout[8]} {fmc_fifo_dout[9]} {fmc_fifo_dout[10]} {fmc_fifo_dout[11]} {fmc_fifo_dout[12]} {fmc_fifo_dout[13]} {fmc_fifo_dout[14]} {fmc_fifo_dout[15]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 16 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {fmc_fifo_dout_from_ddr[0]} {fmc_fifo_dout_from_ddr[1]} {fmc_fifo_dout_from_ddr[2]} {fmc_fifo_dout_from_ddr[3]} {fmc_fifo_dout_from_ddr[4]} {fmc_fifo_dout_from_ddr[5]} {fmc_fifo_dout_from_ddr[6]} {fmc_fifo_dout_from_ddr[7]} {fmc_fifo_dout_from_ddr[8]} {fmc_fifo_dout_from_ddr[9]} {fmc_fifo_dout_from_ddr[10]} {fmc_fifo_dout_from_ddr[11]} {fmc_fifo_dout_from_ddr[12]} {fmc_fifo_dout_from_ddr[13]} {fmc_fifo_dout_from_ddr[14]} {fmc_fifo_dout_from_ddr[15]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 1 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list me_define ]]
+save_constraints
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+close_design
+open_hw
+connect_hw_server
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.runs/impl_1/ddrtovga_top.bit} [get_hw_devices xc7k325t_0]
+set_property PROBES.FILE {C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.runs/impl_1/ddrtovga_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.runs/impl_1/ddrtovga_top.ltx} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+create_hw_cfgmem -hw_device [get_hw_devices xc7k325t_0] -mem_dev [lindex [get_cfgmem_parts {s25fl256sxxxxxx0-spi-x1_x2_x4}] 0]
+set_property PROBES.FILE {C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.runs/impl_1/ddrtovga_top.ltx} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.runs/impl_1/ddrtovga_top.ltx} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.runs/impl_1/ddrtovga_top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {u_fmc_data_compare/wr_num_cnt} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7k325t_0] -filter {CELL_NAME=~"u_ila_0"}]]
+save_wave_config {C:/Users/gyz/Desktop/ddrtovga/fmc_imput2/my_ddr_to_vga/my_ddr_to_vga.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw

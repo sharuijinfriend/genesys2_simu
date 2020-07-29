@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/ip/fmc_fifo/sim/fmc_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fmc_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/new/FMC_data_convert.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FMC_data_convert
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/new/FMC_out.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FMC_out
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/new/ddrtovga_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddrtovga_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/new/uart_data_convert.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_data_convert
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/new/uart_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sources_1/new/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/gyz/Desktop/ddrtovga/fmc_input/my_ddr_to_vga/my_ddr_to_vga.srcs/sim_1/new/fmc_data_convert_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fmc_data_convert_tb

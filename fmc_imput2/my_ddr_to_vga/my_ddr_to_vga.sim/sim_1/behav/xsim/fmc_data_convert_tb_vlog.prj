@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../my_ddr_to_vga.srcs/sim_1/imports/mine2" --include "../../../../my_ddr_to_vga.srcs/sources_1/ip/clk_convert" \
+"../../../../my_ddr_to_vga.srcs/sources_1/new/FMC_data_convert.v" \
+"../../../../my_ddr_to_vga.srcs/sources_1/new/FMC_out.v" \
+"../../../../my_ddr_to_vga.srcs/sim_1/new/fmc_data_convert_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

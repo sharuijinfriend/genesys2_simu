@@ -1,0 +1,7 @@
+Running: xsim.dir/ddrtovga_top_behav/xsimk.exe -simmode gui -wdb ddrtovga_top_behav.wdb -simrunnum 0 -socket 59353
+Design successfully loaded
+Design Loading Memory Usage: 5528 KB (Peak: 5528 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 6652 KB (Peak: 6652 KB)
+Simulation CPU Usage: 0 ms
